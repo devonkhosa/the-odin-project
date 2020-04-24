@@ -69,3 +69,7 @@ a {
     justify-content: center;
     align-items: center;
 }
+
+#search_bar:hover{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}

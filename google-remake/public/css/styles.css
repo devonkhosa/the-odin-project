@@ -127,14 +127,18 @@ a {
     width: 100%;
     height: 2.5rem;
     overflow: hidden;
-    padding-bottom: 10px;
+    padding-top: ;
+    padding-bottom: 20px;
+    border-top: solid;
+    border-color: #6F6F6F;
+    border-width: .5px;
 }
 
 #country{
     position: absolute;
     bottom: 0;
     width: 100%;
-    padding-bottom: 20px;
+    padding-bottom: 45px;
     float: left;
     color: #6F6F6F;
     background-color: #F2F2F2;
@@ -152,4 +156,12 @@ a {
 #footer_R{
     bottom: 0;
     float: right;
+}
+
+#footer_L a:hover{
+    text-decoration: underline;
+}
+
+#footer_R a:hover{
+    text-decoration: underline;
 }

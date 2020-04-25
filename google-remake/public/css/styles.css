@@ -73,3 +73,16 @@ a {
 #search_bar:hover{
     box-shadow: 0 0 7px rgba(0, 0, 0, 0.15);
 }
+
+.inputBox{
+    border: none;
+    outline: none;
+    width: 400px;
+    height: 27px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+}

@@ -1,3 +1,12 @@
+html *{
+    font-family: Arial;
+}
+
+a { color: #5F6368 }
+a:visited, a:hover, a:focus, a:active{
+    text-decoration: none; color:#5F6368;
+}
+
 ul, li{
     display: inline-block;
     align-content: center;
@@ -23,7 +32,7 @@ ul, li{
 	margin: 10px;
 }
 
-.signIn{
+#signIn{
     background-color: #3e82f0;
 	color: #ffffff;
 	text-decoration: none;
@@ -34,6 +43,10 @@ ul, li{
 	font-weight: bold;
 	border-radius: 2px;
 	font-size: 14px;
+}
+
+#signIn:hover{
+    text-decoration: underline;
 }
 
 a {
@@ -85,4 +98,21 @@ a {
     justify-content: center;
     align-items: center;
     font-size: medium;
+}
+
+#buttons a{
+    background-color: #F4F4F4;
+
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-weight: bold;
+	border-radius: 2px;
+	font-size: 14px;
+}
+
+#buttons a:hover{
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.15);
 }

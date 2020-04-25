@@ -11,8 +11,8 @@ html, body{
     background: #000 !important;
     color: #0f0 !important;
     outline: solid #f00 1px !important;
-  }
- */
+  } */
+
 a { color: #5F6368 }
 a:visited, a:hover, a:focus, a:active{
     text-decoration: none; color:#5F6368;
@@ -105,10 +105,16 @@ a {
     justify-content: center;
     align-items: center;
 }
+#buttons{
+    width: 80%; 
+    text-align:center;
+    padding-right: 40px;
+
+}
 
 #buttons a{
     background-color: #F4F4F4;
-
+    margin: 0;
 	text-decoration: none;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -162,5 +168,21 @@ a {
 }
 
 #footer_R a:hover{
+    text-decoration: underline;
+}
+
+#covid a{
+    color: #1A0DB3;
+}
+
+#covid a:hover{
+    text-decoration: underline;
+}
+
+#fr a{
+    color: #1A0DB3;
+}
+
+#fr a:hover{
     text-decoration: underline;
 }
